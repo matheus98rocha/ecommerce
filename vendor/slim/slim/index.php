@@ -100,14 +100,12 @@ $app->get('/', function () {
             </section>
             <section>
                 <h2>Slim Framework Community</h2>
-
                 <h3>Support Forum and Knowledge Base</h3>
                 <p>
                     Visit the <a href="http://help.slimframework.com" target="_blank">Slim support forum and knowledge base</a>
                     to read announcements, chat with fellow Slim users, ask questions, help others, or show off your cool
                     Slim Framework apps.
                 </p>
-
                 <h3>Twitter</h3>
                 <p>
                     Follow <a href="http://www.twitter.com/slimphp" target="_blank">@slimphp</a> on Twitter to receive the very latest news

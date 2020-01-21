@@ -114,7 +114,7 @@ class Tpl {
 
     /**
      * Assign variable
-     * eg. 	$t->assign('name','mickey');
+     * eg.  $t->assign('name','mickey');
      *
      * @param mixed $variable Name of template variable or associative array name/value
      * @param mixed $value value assigned to this variable. Not set if variable_name is an associative array
@@ -233,7 +233,7 @@ class Tpl {
             // save the filepath in the info
             $this->templateInfo['template_filepath'] = $templateFilepath;
 
-            // read the file			
+            // read the file            
             $this->templateInfo['code'] = $code = fread($fp, filesize($templateFilepath));
 
             // xml substitution
